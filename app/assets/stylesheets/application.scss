@@ -11,3 +11,57 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "./sphere";
+@import "./barly";
+
+
+.container {
+ background-color: #000000;
+ z-index:1;
+ display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+border-radius: 60%;
+
+}
+
+html { background-color: #000000; }
+
+// .container{
+//   // background-color: #000000;
+//   position:absolute;
+//   z-index: -2;
+// }
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  background-color: #000000;
+  // height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.name {
+  position: absolute;
+  z-index: 1;
+  right: 37%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+  justify-content: center;
+}
+
+
+.details{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 24%;
+  left: 38%;
+}

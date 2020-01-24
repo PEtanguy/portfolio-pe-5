@@ -1,0 +1,48 @@
+$lightgrey: #5D737E;
+
+
+.work {
+  position: absolute;
+  z-index:1;
+  top: 100%;
+  color: white;
+  width: 70%;
+}
+
+.work-Barly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightgrey;
+  transition: all .2s ease-in-out;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+
+.barly-main-wrap {
+  // background-color: $yellow;
+  color: white;
+  padding: 15px;
+  // border-radius: 15px;
+  width: 100vw;
+}
+
+.barly-sides {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.work-Barly:hover {
+  transform: scale(1.1);
+  background-color: $lightgrey;
+}
+
+
+.barly-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

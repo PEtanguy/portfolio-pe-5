@@ -1,12 +1,12 @@
-let rows = 200;
-let cols = 300;
+let rows = 75;
+let cols = 75;
 let numParticles = rows * cols,
-thickness = Math.pow( 80, 2 ),
-spacing = 10,
+thickness = Math.pow( 80, 2.3 ),
+spacing = 25,
 margin = 100,
 color = 220,
-drag = 0.95,
-ease = 0.25,
+drag = 0.80,
+ease = 0.15,
 
 /*
 
@@ -146,8 +146,8 @@ function init(containerTarget) {
   w = canvas.width = cols * spacing + margin * 2;
   h = canvas.height = rows * spacing + margin * 2;
 
-  container.style.marginLeft = Math.round( w * -0.5 ) + 'px';
-  container.style.marginTop = Math.round( h * -0.5 ) + 'px';
+  // container.style.marginLeft = Math.round( w * -0.5 ) + 'px';
+  // container.style.marginTop = Math.round( h * -0.5 ) + 'px';
 
   for ( i = 0; i < numParticles; i++ ) {
 
